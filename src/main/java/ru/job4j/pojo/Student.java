@@ -7,6 +7,15 @@ public class Student {
     private String group;
     private Date entered;
 
+    public Student() {
+
+    }
+    public Student(String fullName, String group, Date entered) {
+        this.fullName = fullName;
+        this.group = group;
+        this.entered = entered;
+    }
+
     public String getFullName() {
         return fullName;
     }
