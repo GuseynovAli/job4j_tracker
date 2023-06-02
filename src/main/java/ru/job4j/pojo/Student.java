@@ -10,6 +10,7 @@ public class Student {
     public Student() {
 
     }
+
     public Student(String fullName, String group, Date entered) {
         this.fullName = fullName;
         this.group = group;
